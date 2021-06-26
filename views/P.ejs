@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Daily Journal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <%- include('partials/header'); -%>
+    <h1>Phosporous</h1>
+   <div class='Jumbotron'>
+       <p>Now We need to Measure the Phosporous.
+       </p>
+       <p>1. First add the chemical in the P capsules to the Testube.And add 4 drops of Solution to given.</p>
+       <p>2. then add the soil solution to the test tube and shake well. Wait for 5 mins.</p>
+       <p>3. Now click on the test button to get the value of K and hold the Testube near Colour Sensor.</p>
+       <form action='/PResult' method="POST">
+        <button type="submit" >Check the Phosphorous</button>
+        </form>
+   </div>
+    </body>
+    </html>
